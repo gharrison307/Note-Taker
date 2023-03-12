@@ -1,41 +1,7 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text"
-    },
-    {
-        "title": "hi",
-        "text": "hey",
-        "note_id": "387f"
-    },
-    {
-        "title": "hey",
-        "text": "hi test",
-        "note_id": "5bd3"
-    },
-    {
-        "title": "hi",
-        "text": "lol\n",
-        "note_id": "e7b5"
-    },
-    {
-        "title": "note",
-        "text": "note",
-        "note_id": "0c53"
-    },
-    {
-        "title": "heyo",
-        "text": "testo\n",
-        "note_id": "3698"
-    },
-    {
-        "title": "g",
-        "text": "d",
-        "note_id": "95a3"
-    },
-    {
-        "title": "gus",
-        "text": "gus",
-        "note_id": "6527"
+        "title": "Test note",
+        "text": "This is testing a note",
+        "note_id": "b316"
     }
 ]

@@ -44,13 +44,13 @@ notes.post("/", (req, res) => {
 });
 
 // Delete Route
-notes.delete("/:node_id", (req, res) => {
+notes.delete("/:note_id", (req, res) => {
   const noteId = req.params.note_id;
-  readFromFile("./db.json")
+  readFromFile("./db/db.json")
     .then((data) => JSON.parse(data))
     .then((json) => {
       const result = json.filter((note) => note.note_id !== noteId);
-      writeToFile("./db.json", result);
+      writeToFile("./db/db.json", result);
       res.json(`The note had been deleted.`);
     });
 });
