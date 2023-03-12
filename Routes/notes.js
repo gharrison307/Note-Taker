@@ -15,7 +15,7 @@ notes.get("/", (req, res) =>
 // Get route for a single note
 notes.get("/:note_id", (req, res) => {
   const noteId = req.params.note_id;
-  readFromFile("./db/notes.json")
+  readFromFile("./db/db.json")
     .then((data) => JSON.parse(data))
     .then((json) => {
       const result = json.filter((note) => note.note_id === noteId);
