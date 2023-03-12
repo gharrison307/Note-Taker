@@ -43,4 +43,6 @@ notes.post("/", (req, res) => {
   }
 });
 
+// Delete Route
+
 module.exports = notes;
